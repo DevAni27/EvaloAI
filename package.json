@@ -1,0 +1,11 @@
+{
+  "name": "evalo-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev-*\"",
+    "dev-backend": "npm --prefix backend run dev",
+    "dev-frontend": "npm --prefix frontend run dev",
+    "start": "npm --prefix backend start"
+  }
+}
